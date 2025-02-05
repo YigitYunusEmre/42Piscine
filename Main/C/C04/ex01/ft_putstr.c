@@ -6,7 +6,7 @@
 /*   By: yuyigit <yuyigit@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 09:34:13 by yuyigit           #+#    #+#             */
-/*   Updated: 2025/01/22 09:38:05 by yuyigit          ###   ########.fr       */
+/*   Updated: 2025/02/03 14:25:57 by yuyigit          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,22 @@ void	ft_putstr(char *str)
 		i++;
 	}
 }
-// int main (void) {
-// 	char text[] = "hallloo";
-// 	ft_putstr(text);
-// 	return(0);
-// }
+#include <stdio.h>
+
+// void	ft_putstr(char *str);
+int	main(void)
+{
+	char text1[] = "Why are we still here, just to suffer?";
+	int flag = 0;
+	printf("----------------Tester.exe---------------\n");
+	printf("|   \n");
+	printf("|   \n");
+	printf("Expected: \n%s\n", text1);
+	printf("Got: \n");
+	ft_putstr(text1);
+	printf("\n");
+	printf("|   \n");
+	printf("|   \n");
+	printf("--------------End-------------\n");
+	printf("\n");
+}

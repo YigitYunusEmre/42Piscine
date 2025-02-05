@@ -6,7 +6,7 @@
 /*   By: yuyigit <yuyigit@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/21 15:07:54 by yuyigit           #+#    #+#             */
-/*   Updated: 2025/01/21 15:23:01 by yuyigit          ###   ########.fr       */
+/*   Updated: 2025/02/04 11:03:53 by yuyigit          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 	return (dest);
 }
 
-// #include <stdio.h>
+#include <stdio.h>
 
 // int main (void) {
 // 	char text1[] = "hallo ";

@@ -6,7 +6,7 @@
 /*   By: yuyigit <yuyigit@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 14:25:12 by yuyigit           #+#    #+#             */
-/*   Updated: 2025/01/23 17:44:58 by yuyigit          ###   ########.fr       */
+/*   Updated: 2025/01/27 14:18:32 by yuyigit          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,11 +39,8 @@ int	ft_atoi(char *str)
 	return (result * count);
 }
 
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main (void) {å
-// 	printf("%d", ft_atoi("    ---+--+1234ab567"));
-// 	// printf("%d", ft_atoi("-1234ab567"));
-// }
-
-//inta = inta * 10 + str[i] - '0';
+int main (void) {
+	printf("%d", ft_atoi("    ---+--+1234ab567"));
+}

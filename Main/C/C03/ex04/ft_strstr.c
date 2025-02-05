@@ -6,7 +6,7 @@
 /*   By: yuyigit <yuyigit@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/21 15:22:48 by yuyigit           #+#    #+#             */
-/*   Updated: 2025/01/22 18:50:51 by yuyigit          ###   ########.fr       */
+/*   Updated: 2025/02/04 11:14:14 by yuyigit          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,8 +41,8 @@ char	*ft_strstr(char *str, char *to_find)
 // #include <stdio.h>
 
 // int main (void) {
-// 	char hay[] = "Birds are a drone created by the government to spy on us";
-// 	char needle[] = "drone";
+// 	char hay[] = "Birds are a drone created by dr the government to spy on us";
+// 	char needle[] = "dr";
 // 	printf("%s", ft_strstr(hay, needle));
 // 	return(0);
 // }
